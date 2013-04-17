@@ -1,0 +1,18 @@
+==What?==
+Personal Archaeology is the retrieval, storage, preservation, and utilization of personal history.
+
+- Retrieval may take the form of writing down memories, discovering unknown or forgotten sources, or recovering obsolete data stores.  
+
+- Storage is concerned with backup, and ensuring data integrity.  
+
+- Preservation is about future-oriented data formats and storage standards.
+
+==Why?==
+Our personal history is incredibly valuable, in many ways we don't yet realize. It has personal value, value for our friends and family, and value for society and history as a whole.
+
+==How?==
+
+
+==Resources==
+http://jsomers.net/blog/jimbopad
+http://www.digitalpreservation.gov/

@@ -1,0 +1,31 @@
+<article class="edit">
+
+    $message
+    
+    <h1>Editing page $page_id</h1>
+    
+    <div>
+        <form  action="$BASE_URI/$page_id" method="post">                
+            <fieldset>
+                <textarea  placeholder="Start writing amazing content." name="content" cols="40" rows="20">$content</textarea>            
+            </fieldset>
+            <fieldset>
+                <input type="text" class="hneoyopt" placeholder="Leave this field blank" name="hneoyopt" value="" size="30" />
+                <input type="hidden" name="content_hash" value="$content_hash" />
+                <button type="submit" name="" value="">Save changes</button> or <a href="$BASE_URI/$page_id">cancel editing</a>           
+            </fieldset> 
+            <p class="hint">
+                <b>Hint</b>: use Creole syntax to format content.<br /> 
+                This is <i>//italic text//</i>, while this is some <b>**bold text**</b>. <br />
+                Double square brackets specify a link to an [[<a href="$BASE_URI/ExamplePage">ExamplePage</a>]]. <br />
+                Find out more in <a onclick="window.open(this.href); return false;" title="Page opens in a new window/tab" href="$BASE_URI/CreoleSyntax">CreoleSyntax</a>.
+            </p>
+        </form>        
+    </div>
+</article>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('textarea').focus()        
+});
+</script>

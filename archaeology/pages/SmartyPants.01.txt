@@ -1,0 +1,12 @@
+Bikini includes a SmartyPants processor to beautify content typography. Python port of SmartyPants has a number of processing options. Currently Bikini uses these settings:
+* educates normal quote characters: (") and (');
+* educates ``backticks''-style double quotes;
+* educates em-dashes and en-dashes, using old-school typewriter shorthand:  //dash dash//  for en-dashes, //dash dash dash// for em-dashes;
+* educates ellipses.
+
+SmartyPants is turned off by default, since it may introduce unexpected results in certain cases. To turn it on change the {{{configuration.py}}} file like this:
+{{{
+USE_SMARTYPANTS = True
+}}}
+
+More information about SmartyPants can be found on the page for the [[http://daringfireball.net/projects/smartypants/|original Perl version]] by John Gruber.

@@ -1,0 +1,12 @@
+There are several significant concerns in attempting to preserve data permanently.
+
+===Fast threats===
+- The short life of media, including hard disks, flash memory, and tape storage.
+- Disasters that could destroy all of your media at once.
+- Bad or risky backup systems. Some backup systems discard information, but never disclose this to the user.
+- The (non) truth-worthiness of digital storage providers. Closures of Geocities, Friendster, etc, etc, all indicate how easy it is for a large company to destroy massive amounts of user data, without providing any recourse.
+
+===Slow threats===
+- File format obsolescence. Huge numbers of historical file formats are all-but-impossible to read or convert anymore.
+- File system corruption. Files might become corrupted or lost without any notice, meaning the loss might go undetected for years.
+- File system irresponsibility. Often our only context for older recovered documents are their timestamps (created on, modified on). File systems often discard this information in transfers and copying, destroying crucial historical information.

@@ -1,0 +1,24 @@
+==Recording Your Life==
+[[https://openpaths.cc/ | Open Paths]] - a great location tool which allows you to export and control all your data
+[[http://blog.brianhouse.net/post/7359294387 | See how someone turned OpenPaths into a video of their commute]]
+[[http://jsomers.net/blog/jimbopad |JimboPad]] - record your entire writing process
+
+==Reconstruction==
+[[IPhoneLocationFile]] - How to extract location history from your iPhone backup
+http://proust.com - collect your family's memories
+
+==Preservation==
+http://thinkupapp.com - archive your tweets and social media
+[[http://gmvault.org/ | GmVault]] - backup your Gmail
+[[http://lifehacker.com/5773362/back-up-your-gmail-the-easy-way-or-the-cheap-way | Other ways of backing up email]]
+
+==Utilization==
+http://www.dataviz.org/tools - visualize your data
+http://timeline.verite.co/ - good looking timelines
+http://www.openheatmap.com/ - make a map easily
+
+==New & Interesting==
+http://fridayed.com/
+http://code.google.com/p/photograbber/
+http://www.apparentsoft.com/trickster
+http://www.socialsafe.net/

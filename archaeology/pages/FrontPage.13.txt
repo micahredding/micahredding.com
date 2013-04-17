@@ -1,0 +1,56 @@
+==What?==
+Personal Archaeology is the reconstruction, preservation, and utilization of personal history.
+
+==Why?==
+Our personal history is incredibly valuable, in many ways we don't yet realize. It has personal value, value for our friends and family, and value for society and history as a whole.
+
+Personal Archaeology is inherently a social process - most of us would be unable to reconstruct a very complete timeline of our lives without the help of friends and family. Because of this, it is important not just to engage in our own personal archaeology, but to encourage others to engage in it as well.
+
+==Reconstruction==
+Reconstruction or retrieval of our history may take many forms:
+
+- Writing down memories.
+- Extracting the historical data from a digital photo collection.
+- Recovering and consolidating documents from obsolete or unique file formats.
+- Scanning someone's computer for usage history.
+- Collecting information from social networks.
+- Scanning and parsing old papers.
+- Reconstructing history by identifying physical objects.
+- Best-guess algorithms, based on known large-scale events. (IE, you might have watched the news on 2001-09-11)
+
+
+==Preservation==
+There are several significant concerns in attempting to preserve data permanently.
+
+- The short life of media, including hard disks, flash memory, and tape storage.
+- Disasters that could destroy all of your media at once.
+- Bad or risky backup systems. Some backup systems discard information, but never disclose this to the user.
+- The (non) truth-worthiness of digital storage providers. Closures of Geocities, Friendster, etc, etc, all indicate how easy it is for a large company to destroy massive amounts of user data, without providing any recourse.
+
+- File format obsolescence. Huge numbers of historical file formats are all-but-impossible to read or convert anymore.
+- File system corruption. Files might become corrupted or lost without any notice, meaning the loss might go undetected for years.
+- File system irresponsibility. Often our only context for older recovered documents are their timestamps (created on, modified on). File systems often discard this information in transfers and copying, destroying crucial historical information.
+
+
+==How?==
+
+- Find better ways to store our information.
+- Recover older information stores, bringing them into alignment with our new standards.
+- Reconstruct the missing pieces using all the tools of detectives and archaeologists.
+- Preserve this information into the future.
+
+==Things to do==
+[[IPhoneLocationFile]] - Extract location history from your iPhone backup
+[[thinkupapp.com|ThinkUp]] - archive your tweets and social media information on your own server
+
+==Tools==
+http://jsomers.net/blog/jimbopad
+http://www.dataviz.org/tools
+http://timeline.verite.co/
+
+==Theory & Approach==
+http://blog.jonudell.net/2009/08/31/the-joy-of-webscale-identifiers/
+
+==See also==
+[[RelatedProjects]]
+[[TheoryAndApproach]]

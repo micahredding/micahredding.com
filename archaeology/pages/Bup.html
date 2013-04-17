@@ -1,0 +1,13 @@
+<p><a href="https://github.com/apenwarr/bup/">Bup</a> is an innovative new project inspired by Git. It attempts to create a backup system which is capable of handling very large file systems, storing things in a very compressed format, and maintaining data integrity on the level of the actual content, rather than the file name.</p>
+
+<p>It strikes me as a possible candidate for the near-ideal archival file system. </p>
+
+<p>However, one of its worst current limitations is that it does not preserve meta-data. This is being actively worked on.</p>
+
+<p>Things which I'm not sure about, but which could seal the deal:</p>
+
+<ul>
+	<li>If it can accept file backups from multiple volumes into one packfile, de-duplicate those volumes, and yet preserve them all as extractable file systems.</li>
+	<li>If it can preserve alternate versions of the meta-data, so that the history of the meta-data is itself preserved, and so that duplicate files from different volumes can maintain their own individual meta-data sets.</li>
+	<li>If the packfile can itself be replicated across multiple drives.</li>
+</ul>

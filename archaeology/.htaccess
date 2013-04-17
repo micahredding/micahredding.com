@@ -1,0 +1,87 @@
+DirectoryIndex index.cgi
+
+# Needed to run Bikini as CGI script
+Options +FollowSymLinks +ExecCGI -MultiViews
+
+# Add proper MIME type for Atom feeds
+AddType application/atom+xml atom
+
+<IfModule mod_rewrite.c>    
+    RewriteEngine On  
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d    
+    RewriteRule ^(.*)$ index.cgi/$1 [L]
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive Off
+    #ExpiresActive On
+    
+    # No cache for HTML an text files
+    ExpiresByType text/html A0
+    ExpiresByType text/plain A0
+    
+    # Atom feed
+    ExpiresByType application/atom+xml "access plus 1 hour"
+
+    # CSS, Javascript, etc.
+    ExpiresDefault "access plus 1 week"
+
+    # Unlikely to change often
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+</IfModule>
+
+
+# Gzip compression
+<IfModule mod_deflate.c>
+
+    # force deflate for mangled headers developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping/
+    <IfModule mod_setenvif.c>
+      <IfModule mod_headers.c>
+        SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s,?\s(gzip|deflate)?|X{4,13}|~{4,13}|-{4,13})$ HAVE_Accept-Encoding
+        RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+      </IfModule>
+    </IfModule>
+
+    # html, txt, css, js, json, xml, htc:
+    <IfModule filter_module>
+      FilterDeclare   COMPRESS
+      FilterProvider  COMPRESS  DEFLATE resp=Content-Type /text/(html|css|javascript|plain|x(ml|-component))/
+      FilterProvider  COMPRESS  DEFLATE resp=Content-Type /application/(javascript|json|xml|x-javascript)/
+      FilterChain     COMPRESS
+      FilterProtocol  COMPRESS  change=yes;byteranges=no
+    </IfModule>    
+
+    # Legacy versions of Apache
+    <IfModule !mod_filter.c>
+      AddOutputFilterByType DEFLATE text/html text/plain text/css application/json
+      AddOutputFilterByType DEFLATE text/javascript application/javascript application/x-javascript 
+      AddOutputFilterByType DEFLATE text/xml application/xml text/x-component
+    </IfModule>
+
+</IfModule>
+
+
+
+# Protect pages from public editing, see:
+# http://lab.passiomatic.com/bikini/Setup 
+<IfModule mod_auth_digest.c>
+    AuthType Digest
+    AuthName "To save changes please log in first."
+    AuthUserFile /path/to/.htpasswd
+    <Limit POST PUT DELETE>
+        Require valid-user
+    </Limit>    
+</IfModule>
+
+<IfModule mod_auth.c>
+    AuthType Basic
+    AuthName "To save changes please log in first."
+    AuthUserFile /path/to/.htpasswd
+    <Limit POST PUT DELETE>
+        Require valid-user
+    </Limit>    
+</IfModule>

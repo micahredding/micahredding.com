@@ -1,0 +1,2 @@
+==Solving the problems of data identification==
+http://blog.jonudell.net/2009/08/31/the-joy-of-webscale-identifiers/

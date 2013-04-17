@@ -1,0 +1,14 @@
+Recording the audio of your life should be pretty simple. Needed:
+
+* A digital audio recorder, which records to mp3. 
+* Ideally, it should store separate files, time and date stamped.
+* It should allow these to be easily copied over USB.
+* It should have at least 8 hours of battery time.
+* It should have at least 8 hours of onboard storage space.
+* For bonus points, it should be able to record on voice activation.
+
+MP3s should take up about 1MB per minute. This comes out to about 1.4GB per day, or 525GB per year. So a one terabyte hard drive will more than cover it, and an additional hard drive could serve as backup.
+
+* $200 for hard drives
+* $200 for the recorder (?)
+* = $400 to record your entire life for a year.

@@ -1,0 +1,11 @@
+Reconstruction or retrieval of our history may take many forms:
+
+- Writing down memories ([[http://proust.com |Proust]]).
+- Extracting the historical data from a digital photo collection.
+- Recovering and consolidating documents from obsolete or unique file formats.
+- Scanning someone's computer for usage history.
+- Collecting information from social networks.
+- Scanning and parsing old papers.
+- Reconstructing history by identifying physical objects.
+- Best-guess algorithms, based on known large-scale events. (IE, you might have watched the news on 2001-09-11)
+- Digging up location history in your [[IPhoneLocationFile| iPhone Location File]]

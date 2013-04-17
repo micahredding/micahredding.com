@@ -1,0 +1,59 @@
+Bikini uses Creole syntax to edit page contents. Here you will find several syntax elements, more are available on the official [[http://www.wikicreole.org/wiki/Creole1.0|Creole documentation]]. 
+
+[[./CreoleSyntax/source|View source of this page]] to see how this page was written.
+
+== == Simple text formatting
+Create a paragraph by ending it with one or more blank lines. Also it's easy to write ~/~///Italic text//~/~/ and ~*~***bold text**~*~*. A line break ↵\\
+is forced with two consecutive back-slashes ~\~\. 
+
+== == Links
+Internal links are just put between double square brackets ~[~[ like this is link to the ~[~[[[FrontPage]]~]~]. 
+
+You can associate a clickable text to a link by writing its address and the text between double square brackets ~[~[, separated by a pipe character |:
+{{{
+[[http://example.org/|link to example.org]]
+}}}
+
+A free standing web address will be automatically linked, e.g.: http://example.org/.
+
+== == Headings
+One equal sign = as title prefix make a first level heading, which is typically reserved for page title. Also, two == and three === consecutive equal signs make a second and third level heading respectively. Actually in Bikini up to //three levels// of heading are styled. 
+
+== == Lists
+An //unordered// list is made of a series of text items each prefixed by an asterisk *:
+* ~* So, this is the first item;
+* ~* and this is the second one.
+
+Use a hash mark # instead of an asterisk to make //ordered// lists. Notice that nested lists are also possible:
+# ~# So, this is the first item;
+## ~## first item in nested list;
+### ~### first item in second nested list;
+# ~# and this is the second one.
+
+Four hyphens will make a horizontal rule, which will be placed after this line of text.
+
+----
+
+== == Images
+An image address between double braces ~{~{ defines an image.  An optional //alt// text can be added by separating the address with a pipe character |:  
+{{{
+{{./i/sample.jpg|Beach at Barbados, July 2004}} 
+}}}
+
+{{./i/sample.jpg|each at Barbados, July 2004}} 
+↑ Photo from Flickr by [[http://www.flickr.com/photos/gusdiaz/28800370/|Gusdiaz]].
+
+Note: the //alt// text will appear if specified image could not be loaded.
+
+== == Preformatted sections
+Three braces ~{~{~{ blocks allow to specify preformatted sections. Bikini will style those with a {{{monospaced}}} font and whitespace characters will be preserved. No further Creole syntax processing is performed on enclosed text.
+{{{
+This preformatted text 
+will appear **as-is**.
+}}}
+
+== == What about the plain ol' HTML code?
+All HTML code is escaped thus it will appear as such on the page, like this <table> element.
+
+== == Limitations
+Please keep in mind that Bikini currently has full support for Creole 1.0 syntax except [[http://www.wikicreole.org/wiki/CreoleAdditions|optional additions]] like inlines styles for superscript, subscript, etc.
