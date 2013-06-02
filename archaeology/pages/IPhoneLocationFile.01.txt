@@ -1,9 +1,0 @@
-==Use an application==
-http://petewarden.github.com/iPhoneTracker/
-
-This allows you to sorta see the information, but not do much with it. To use it in other ways, or to archive it yourself, go to the next section.
-
-==Use a script==
-- Read the directions - http://howto.wired.com/wiki/Find_Stored_iPhone_Location_Data_on_your_Computer
-- If you're running iOS 4, the script they reference is -http://pastebin.com/hFAt0WQH
-- If you're running iOS 5, you'll need this - http://stackoverflow.com/a/8101937
