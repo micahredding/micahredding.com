@@ -15,9 +15,9 @@ Redirect 301 /fb http://facebook.com/micahredding
 Redirect 301 /twitter http://twitter.com/micahtredding
 
 Redirect 301 /group http://groups.google.com/group/me-vs-the-world
-Redirect 301 /xn http://micahredding.us4.list-manage.com/subscribe?u=c9e24ff2e309d9d4edb919a40&id=f2212245c8&group[5][2]=true
 Redirect 301 /curve http://micahredding.us4.list-manage.com/subscribe?u=c9e24ff2e309d9d4edb919a40&id=f2212245c8&group[5][1]=true
-Redirect 301 /future http://micahredding.us4.list-manage.com/subscribe?u=c9e24ff2e309d9d4edb919a40&id=f2212245c8&group[5][4]=true
+Redirect 301 /xn http://micahredding.us4.list-manage.com/subscribe?u=c9e24ff2e309d9d4edb919a40&id=f2212245c8&group[5][2]=true&group[5][1]=true
+Redirect 301 /future http://micahredding.us4.list-manage.com/subscribe?u=c9e24ff2e309d9d4edb919a40&id=f2212245c8&group[5][4]=true&group[5][1]=true
 
 Redirect 301 /religion http://micahredding.com/blog/theology
 
