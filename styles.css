@@ -15,8 +15,13 @@ a:hover {
   color:#000;
 }
 .social-links a {
-  display: block;
   text-align: center;
+}
+.social-links a:after {
+  content: " . ";
+}
+.social-links a:last-child:after {
+  content: " ";
 }
 h1 {
   font-weight:normal; 
