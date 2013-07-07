@@ -21,7 +21,7 @@ Redirect 301 /future http://micahredding.us4.list-manage.com/subscribe?u=c9e24ff
 
 Redirect 301 /religion http://micahredding.com/blog/theology
 
-Redirect 301 /ctaim https://docs.google.com/spreadsheet/ccc?key=0ArGmjSbYZdUddFJVakFJNHNDNUx0eTBGUFB0UWdzcFE#gid=0
+Redirect 301 /ctaim https://docs.google.com/forms/d/1v_VWUJvfse6qts41J8vRjVhBfTbpT416-g0AtZBdoV4/viewform
 
 </IfModule>
 
