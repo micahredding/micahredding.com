@@ -22,8 +22,8 @@ Redirect 301 /list http://micahredding.us4.list-manage.com/subscribe?u=c9e24ff2e
 
 Redirect 301 /religion http://micahredding.com/blog/theology
 
-Redirect 301 /ctaim https://docs.google.com/forms/d/1v_VWUJvfse6qts41J8vRjVhBfTbpT416-g0AtZBdoV4/viewform
-# Redirect 301 /ctaim http://eepurl.com/HGleH
+# Redirect 301 /ctaim https://docs.google.com/forms/d/1v_VWUJvfse6qts41J8vRjVhBfTbpT416-g0AtZBdoV4/viewform
+Redirect 301 /ctaim http://eepurl.com/HGleH
 Redirect 301 /cta http://groups.google.com/group/christian-transhumanist-association
 
 </IfModule>
