@@ -1,18 +1,19 @@
 body {
-  font-family:'Open Sans', Helvetica, sans-serif; 
-  font-size:1.7em; 
+  font-family:'Open Sans', Helvetica, sans-serif;
+  font-size:1.7em;
   line-height: 1.5em;
 }
 body, a, h1, h2, h3 {
   color:#444;
 }
 a {
-  color:#666;
-  text-decoration:none; 
+  color:#444;
+  line-height: 1.5em;
+  text-decoration:none;
   display:inline-block;
 }
 a:hover {
-  color:#ccc;
+  color:#666;
 }
 .social-links a {
   text-align: center;
@@ -24,7 +25,7 @@ a:hover {
   content: " ";
 }
 h1 {
-  font-weight:normal; 
+  font-weight:normal;
   font-size: 1em;
   display: inline;
 }
@@ -32,9 +33,22 @@ h1 {
   max-width:700px;
   margin:0 20px;
 }
+#page ul {
+  margin:0;
+  padding:0;
+}
+#page ul li {
+  display: block;
+  float: left;
+  font-size:0.8em;
+  min-height:200px;
+  margin:20px 10px 20px 0;
+  text-align: center;
+  width:220px;
+}
 @media(min-width: 800px) {
   #page {
-    margin:0 auto; 
+    margin:0 auto;
   }
 }
 @media(min-height: 400px) {
