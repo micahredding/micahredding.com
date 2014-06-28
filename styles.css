@@ -16,7 +16,7 @@ a:hover {
   color:#666;
 }
 header, h1 {
-  background: black;
+/*  background: black;*/
   color: white;
   font-size: 0.6em;
   font-variant: small-caps;
@@ -24,9 +24,11 @@ header, h1 {
   letter-spacing: 2px;
   line-height: 1.2em;
   padding: 0.7em 1em;
+  text-align: center;
   text-transform: lowercase;
 }
 h1 a {
+  color: #aaa;
   display: inline-block;
   padding: 0 0.5em;
 }
@@ -37,7 +39,7 @@ h1 a:hover {
   color: blue;
 }
 #page {
-  margin:20px;
+  margin:0 20px;
   text-align: center;
 }
 #page ul {
