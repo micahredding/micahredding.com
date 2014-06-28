@@ -1,4 +1,6 @@
 body {
+  background: url();
+  background-size: cover;
   font-family:'Open Sans', Helvetica, sans-serif;
   font-size:1.7em;
   line-height: 1.5em;
@@ -24,29 +26,51 @@ a:hover {
 .social-links a:last-child:after {
   content: " ";
 }
+header {
+  background: black;
+  color: white;
+  font-size: 0.6em;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  line-height: 1em;
+  padding: 0.7em 1em;
+  text-transform: lowercase;
+}
 h1 {
   font-weight:normal;
   font-size: 1em;
   display: inline;
 }
 #page {
-  max-width:700px;
-  margin:0 20px;
+/*  max-width:700px;*/
+  margin:20px;
+  text-align: center;
 }
 #page ul {
-  margin:0;
+  display: block;
+  margin:0 auto;
   padding:0;
+  text-align: center;
 }
 #page ul li {
-  display: block;
-  float: left;
+  clear: both;
+  display: inline-block;
   font-size:0.8em;
-  min-height:200px;
-  margin:20px 10px 20px 0;
+  margin:2%;
   text-align: center;
-  width:220px;
 }
-@media(min-width: 800px) {
+#page ul li a {
+  position: relative;
+}
+#page ul li a span {
+  display: block;
+  width: 100%;
+}
+#page p {
+  margin: 0 auto;
+  max-width: 30em;
+}
+/*@media(min-width: 800px) {
   #page {
     margin:0 auto;
   }
@@ -56,3 +80,4 @@ h1 {
     padding-top:100px;
   }
 }
+*/
