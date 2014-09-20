@@ -15,7 +15,27 @@ a {
 a:hover {
   color:#666;
 }
-header, h1 {
+h1 {
+  font-weight: normal;
+  line-height: 1em;
+  margin:0.2em;
+}
+header {
+  margin:2em 0 1em;
+}
+@media (min-width: 700px) {
+  header {
+    margin:9em 0 7em;
+  }
+}
+header p {
+  line-height: 1em;
+  margin:0;
+}
+header a, header p a, header h1 a {
+  line-height: 1em;
+}
+footer {
 /*  background: black;*/
   color: white;
   font-size: 0.6em;
@@ -27,15 +47,15 @@ header, h1 {
   text-align: center;
   text-transform: lowercase;
 }
-h1 a {
+footer a {
   color: #aaa;
   display: inline-block;
   padding: 0 0.5em;
 }
-h1 a:first-child {
+footer a:first-child {
   margin-left: 0.5em;
 }
-h1 a:hover {
+footer a:hover {
   color: blue;
 }
 #page {
@@ -45,6 +65,7 @@ h1 a:hover {
 #page ul {
   display: block;
   margin:0 auto;
+  max-width: 1060px;
   padding:0;
   text-align: center;
 }
@@ -63,18 +84,6 @@ h1 a:hover {
   display: block;
   width: 100%;
 }
-#page p {
-  font-size: 0.8em;
-  line-height: 1.6em;
-  margin: 1em auto;
-  max-width: 30em;
-}
 #page img {
   margin-bottom: 1em;
-}
-@media (min-width: 700px) {
-  #page p {
-    font-size: 1em;
-    margin-top: 2em;
-  }
 }
