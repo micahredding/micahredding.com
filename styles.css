@@ -87,3 +87,13 @@ footer a:hover {
 #page img {
   margin-bottom: 1em;
 }
+#mc_embed_signup form {
+  display: block;
+  text-align: center;
+}
+#mc_embed_signup label, #mc_embed_signup input {
+  display: block;
+  font-size: 1em;
+  margin: 0.5em auto;
+  text-align: center;
+}
