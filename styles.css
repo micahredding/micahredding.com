@@ -62,7 +62,7 @@ footer a:hover {
   margin:0 20px;
   text-align: center;
 }
-#page ul, .container {
+#page ul, .container, .container-narrow {
   display: block;
   margin:0 auto;
   max-width: 1060px;
@@ -96,4 +96,31 @@ footer a:hover {
   font-size: 1em;
   margin: 0.5em auto;
   text-align: center;
+}
+
+#page.bio {
+  text-align: left;
+}
+
+#page.bio .container {
+  font-size: 0.7em;
+  max-width: 600px;
+  text-align: left;
+}
+
+#page.bio header {
+  margin: 2em;
+  text-align: left;
+}
+
+#page.bio h1 {
+  margin: 0.2em 0;
+  text-align: left;
+}
+
+#page.bio .photo-wrapper img {
+  height: auto;
+  max-width: 250px;
+  vertical-align: top;
+  width: 100%;
 }
