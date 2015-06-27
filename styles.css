@@ -74,11 +74,9 @@ footer a:hover {
   display: inline-block;
   font-size:0.8em;
   margin:1em 2% 1em;
+  max-width: 220px;
   text-align: center;
   vertical-align: top;
-}
-#page ul li a {
-  max-width: 220px;
 }
 #page ul li a span {
   display: block;
@@ -109,15 +107,31 @@ footer a:hover {
 }
 
 #page.bio header {
-  margin: 2em;
   text-align: left;
+}
+
+@media(min-width: 700px) {
+  #page.bio header {
+    margin: 2em;
+  }
 }
 
 #page.bio h1 {
   margin: 0.2em 0;
   text-align: left;
 }
-
+#page.bio h3 + em {
+  display: block;
+  font-weight: normal;
+  margin-bottom: -1.5em;
+  margin-top: -1.5em;
+}
+#page.bio .container a {
+  font-weight: normal;
+}
+#page.bio .container a {
+  font-weight: bold;
+}
 #page.bio .photo-wrapper img {
   height: auto;
   max-width: 250px;
@@ -126,9 +140,17 @@ footer a:hover {
 }
 
 #page.bio ul, #page.bio ul li {
+  display: block;
   text-align: left;
+  max-width: 100%;
 }
-
+@media(min-width: 700px) {
+  #page.bio ul li {
+    display: inline-block;
+    max-width: 39%;
+    min-width: 39%;
+  }
+}
 #page.bio ul li {
   margin: 0 4em 2em 0;
 }
