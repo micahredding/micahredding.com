@@ -25,7 +25,7 @@ Redirect 301 /religion http://micahredding.com/blog/theology
 # Redirect 301 /ctaim https://docs.google.com/forms/d/1v_VWUJvfse6qts41J8vRjVhBfTbpT416-g0AtZBdoV4/viewform
 Redirect 301 /ctaim http://eepurl.com/HGleH
 Redirect 301 /cta http://groups.google.com/group/christian-transhumanism
-
+Redirect 301 /superheroes https://docs.google.com/presentation/d/1vgcCSS5HSNyyf17i5S3Xf3c_D3ar6uJB1Wlna81Y2vI/edit#slide=id.p10
 </IfModule>
 
 # END WordPress
