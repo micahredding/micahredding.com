@@ -69,7 +69,7 @@ footer a:hover {
   padding:0;
   text-align: center;
 }
-#page ul li {
+#page ul.section li {
   clear: both;
   display: inline-block;
   font-size:0.8em;
