@@ -2,6 +2,8 @@ body {
   font-family:'Open Sans', Helvetica, sans-serif;
   font-size:1.7em;
   line-height: 1.5em;
+  padding: 0;
+  margin: 0;
 }
 body, a, h1, h2, h3 {
   color:#444;
@@ -22,6 +24,16 @@ h1 {
 }
 header {
   margin:2em 0 1em;
+}
+#page header img {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+header .header-title {
+  display: inline-block;
+  padding: 1em 1em 2em 1em;
+  vertical-align: middle;
 }
 @media (min-width: 700px) {
   header {
