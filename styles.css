@@ -22,59 +22,12 @@ h1 {
   line-height: 1em;
   margin:0.2em;
 }
-header {
-  margin:2em 0 1em;
-}
-#page header img {
-  display: inline-block;
-  margin-bottom: 0;
-  vertical-align: middle;
-}
-header .header-title {
-  display: inline-block;
-  padding: 1em 1em 2em 1em;
-  vertical-align: middle;
-}
-@media (min-width: 700px) {
-  header {
-    margin:8em 0 7em;
-  }
-}
-header p {
-  line-height: 1em;
-  margin:0;
-}
-header a, header p a, header h1 a {
-  line-height: 1em;
-}
-footer {
-/*  background: black;*/
-  color: white;
-  font-size: 0.6em;
-  font-variant: small-caps;
-  font-weight: normal;
-  letter-spacing: 2px;
-  line-height: 1.2em;
-  padding: 0.7em 1em;
-  text-align: center;
-  text-transform: lowercase;
-}
-footer a {
-  color: #aaa;
-  display: inline-block;
-  padding: 0 0.5em;
-}
-footer a:first-child {
-  margin-left: 0.5em;
-}
-footer a:hover {
-  color: blue;
-}
+
 #page {
   margin:0 20px;
   text-align: center;
 }
-#page ul, .container, .container-narrow {
+#page ul, .container, .container-narrow, #page section {
   display: block;
   margin:0 auto;
   max-width: 1060px;
@@ -96,73 +49,4 @@ footer a:hover {
 }
 #page img {
   margin-bottom: 1em;
-}
-#mc_embed_signup form {
-  display: block;
-  text-align: center;
-}
-#mc_embed_signup label, #mc_embed_signup input {
-  display: block;
-  font-size: 1em;
-  margin: 0.5em auto;
-  text-align: center;
-}
-
-#page.bio {
-  text-align: left;
-}
-
-#page.bio .container {
-  font-size: 0.7em;
-  max-width: 600px;
-  text-align: left;
-}
-
-#page.bio header {
-  text-align: left;
-}
-
-@media(min-width: 700px) {
-  #page.bio header {
-    margin: 2em;
-  }
-}
-
-#page.bio h1 {
-  margin: 0.2em 0;
-  text-align: left;
-}
-#page.bio h3 + em {
-  display: block;
-  font-weight: normal;
-  margin-bottom: -1.5em;
-  margin-top: -1.5em;
-}
-#page.bio .container a {
-  font-weight: normal;
-}
-#page.bio .container a {
-  font-weight: bold;
-}
-#page.bio .photo-wrapper img {
-  height: auto;
-  max-width: 250px;
-  vertical-align: top;
-  width: 100%;
-}
-
-#page.bio ul, #page.bio ul li {
-  display: block;
-  text-align: left;
-  max-width: 100%;
-}
-@media(min-width: 700px) {
-  #page.bio ul li {
-    display: inline-block;
-    max-width: 39%;
-    min-width: 39%;
-  }
-}
-#page.bio ul li {
-  margin: 0 4em 2em 0;
 }

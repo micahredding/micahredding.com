@@ -1,0 +1,75 @@
+#page.bio, #page.all {
+  text-align: left;
+}
+
+#page.bio .container {
+  font-size: 0.7em;
+  max-width: 600px;
+  text-align: left;
+}
+#page section {
+  font-size: 0.7em;
+  display: block;
+  margin:2em auto 4em;
+  max-width: 700px;
+  padding:0;
+  text-align: left;
+}
+#page section ul.section li {
+  clear: both;
+  display: inline-block;
+  font-size:0.8em;
+  margin:1em 0% 1em;
+  max-width: 220px;
+  text-align: center;
+  vertical-align: top;
+}
+#page.bio header {
+  text-align: left;
+}
+#page.all header {
+  text-align: center;
+}
+
+@media(min-width: 700px) {
+  #page.bio header {
+    margin: 2em;
+  }
+}
+
+#page.bio h1, #page.all h1 {
+  margin: 0.2em 0;
+  text-align: left;
+}
+#page.bio h3 + em {
+  display: block;
+  font-weight: normal;
+  margin-bottom: -1.5em;
+  margin-top: -1.5em;
+}
+#page.bio .container a, #page.all section a {
+  font-weight: normal;
+  font-weight: bold;
+}
+#page.bio .photo-wrapper img, #page.all .photo-wrapper img {
+  height: auto;
+  max-width: 250px;
+  vertical-align: top;
+  width: 100%;
+}
+
+#page.bio ul, #page.bio ul li, #page.all ul, #page.all ul li {
+  display: block;
+  text-align: left;
+  max-width: 100%;
+}
+@media(min-width: 700px) {
+  #page.bio ul li, #page.all ul li {
+    display: inline-block;
+    max-width: 39%;
+    min-width: 39%;
+  }
+}
+#page.bio ul li, #page.all ul li {
+  margin: 0 4em 2em 0;
+}

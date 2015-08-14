@@ -1,0 +1,48 @@
+header {
+  margin:2em 0 1em;
+}
+#page header img {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+header .header-title {
+  display: inline-block;
+  padding: 1em 1em 2em 1em;
+  vertical-align: middle;
+}
+@media (min-width: 700px) {
+  header {
+    margin:8em 0 7em;
+  }
+}
+header p {
+  line-height: 1em;
+  margin:0;
+}
+header a, header p a, header h1 a {
+  line-height: 1em;
+}
+footer {
+/*  background: black;*/
+  color: white;
+  font-size: 0.6em;
+  font-variant: small-caps;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 1.2em;
+  padding: 0.7em 1em;
+  text-align: center;
+  text-transform: lowercase;
+}
+footer a {
+  color: #aaa;
+  display: inline-block;
+  padding: 0 0.5em;
+}
+footer a:first-child {
+  margin-left: 0.5em;
+}
+footer a:hover {
+  color: blue;
+}
