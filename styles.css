@@ -37,7 +37,7 @@ header .header-title {
 }
 @media (min-width: 700px) {
   header {
-    margin:9em 0 7em;
+    margin:8em 0 7em;
   }
 }
 header p {
