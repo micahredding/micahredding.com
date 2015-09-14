@@ -25,24 +25,71 @@ h1 {
 
 #page {
   margin:0 20px;
-  text-align: center;
 }
-#page ul, .container, .container-narrow, #page section {
+section, header {
   display: block;
-  margin:0 auto;
-  max-width: 1060px;
-  padding:0;
+  margin: 0 auto;
+  margin-bottom: 8em;
+  padding: 0;
+}
+section.center, header.center {
   text-align: center;
 }
-#page ul.section li {
+section.wide, header.wide {
+  max-width: 1060px;
+}
+section.normal, header.normal {
+  max-width: 800px;
+}
+section.narrow, header.narrow {
+  max-width: 600px;
+}
+ul.squares {
+  padding-left: 0;
+}
+ul.squares li {
   clear: both;
-  display: inline-block;
+  list-style: none;
   font-size:0.8em;
-  margin:1em 2% 1em;
-  max-width: 220px;
+  margin:1em;
   text-align: center;
   vertical-align: top;
 }
+@media(min-width: 600px) {
+  ul.halves li {
+    display: inline-block;
+    margin:1em 2% 1em;
+    width: 44%;
+  }
+  ul.halves li:nth-child(odd) {
+    margin-left: 0;
+    margin-right: 4%;
+  }
+  ul.halves li:nth-child(even) {
+    margin-left: 4%;
+    margin-right: 0;
+  }
+}
+@media(min-width: 800px) {
+  ul.thirds li {
+    display: inline-block;
+    margin:1em 2% 1em;
+    width: 28%;
+  }
+  ul.fourths li {
+    display: inline-block;
+    margin:1em 2% 1em;
+    width: 28%;
+  }
+}
+@media(min-width: 1200px) {
+  ul.fourths li {
+    display: inline-block;
+    margin:1em 2% 1em;
+    width: 16%;
+  }
+}
+
 #page ul li a span {
   display: block;
   width: 100%;

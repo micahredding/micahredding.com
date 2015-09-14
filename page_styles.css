@@ -1,0 +1,62 @@
+#page.bio, #page.all {
+  text-align: left;
+}
+
+/*#page.bio .container {
+  font-size: 0.7em;
+  max-width: 600px;
+  text-align: left;
+}*/
+#page.bio section {
+  font-size: 0.7em;
+  display: block;
+  margin:2em auto 4em;
+  max-width: 700px;
+  padding:0;
+  text-align: left;
+}
+#page.bio section ul li {
+  clear: both;
+  display: inline-block;
+  font-size:0.8em;
+  text-align: left;
+  vertical-align: top;
+}
+#page.bio header {
+  text-align: left;
+}
+#page.all header {
+  text-align: center;
+}
+
+@media(min-width: 700px) {
+  #page.bio header {
+    margin: 2em;
+  }
+}
+
+#page.bio h1 {
+  margin: 0.2em 0;
+  text-align: left;
+}
+#page.bio h3 + em {
+  display: block;
+  font-weight: normal;
+  margin-bottom: -1.5em;
+  margin-top: -1.5em;
+}
+#page.bio section a {
+  font-weight: bold;
+}
+#page.bio .photo-wrapper img, #page.all .photo-wrapper img {
+  height: auto;
+  max-width: 250px;
+  vertical-align: top;
+  width: 100%;
+}
+
+#page.bio ul, #page.bio ul li {
+  display: block;
+  text-align: left;
+  max-width: 100%;
+}
